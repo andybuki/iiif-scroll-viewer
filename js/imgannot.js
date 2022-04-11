@@ -11,7 +11,7 @@ var Mia = {
 		libpath: "/lib/js/my/",
 		threejs_path: "/lib/js/3d/",
 		pdf_path: "/lib/js/pdf/",
-		osd_imgpath: "/lib/js/osd/images/",
+		osd_imgpath: "images/",
 		parts_path: "/parts/",
 		osd_height: 780,
 		refstr_pclass: "refstrp",
