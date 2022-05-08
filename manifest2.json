@@ -1,0 +1,182 @@
+{
+  "@context": "http://iiif.io/api/presentation/2/context.json",
+  "@type": "sc:Manifest",
+  "@id": "https://itr02.crossasia.org/fcrepo/rest/japonica/karte1/manifest",
+  "label": "高井, 蘭山 *1762-1838*タカイ, ランザンTakai, Ranzan: 御江戸大絵図",
+  "metadata": [
+    {
+      "label": "Autor",
+      "value": [
+        {
+          "@value": "高井, 蘭山 *1762-1838*"
+        },
+        {
+          "@value": "タカイ, ランザン"
+        },
+        {
+          "@value": "Takai, Ranzan"
+        }
+      ]
+    },
+    {
+      "label": "Titel",
+      "value": "御江戸大絵図"
+    },
+    {
+      "label": "Projekt",
+      "value": "SSG 6,25 Digital : Digitalisierung des Sondersammelgebiets Ost- und Südostasien der Staatsbibliothek zu Berlin – ostasiatischer Bestand"
+    },
+    {
+      "label": "_digitalOrigin",
+      "value": "reformatted digital"
+    },
+    {
+      "label": "_electronicEdition",
+      "value": "[Electronic ed.]"
+    },
+    {
+      "label": "_placeOfElectronicOrigin",
+      "value": "Berlin"
+    },
+    {
+      "label": "Ausgabe",
+      "value": "刊"
+    },
+    {
+      "label": "Bemerkung",
+      "value": "Online-Ressource (地図1舗, 多色刷)"
+    },
+    {
+      "label": "Digitalisierer",
+      "value": "Staatsbibliothek zu Berlin - Preußischer Kulturbesitz, Germany"
+    },
+    {
+      "label": "Digitalisierer ",
+      "value": [
+        {
+          "@value": "岡田屋嘉七 [オカダヤ カシチ]"
+        },
+        {
+          "@value": "出雲寺万次郎 [イズモジ マンジロウ]"
+        }
+      ]
+    },
+    {
+      "label": "has_fulltext",
+      "value": false
+    },
+    {
+      "label": "Kategorie",
+      "value": [
+        {
+          "@value": "Historische Drucke"
+        },
+        {
+          "@value": "Karten"
+        },
+        {
+          "@value": "Ostasiatica"
+        },
+        {
+          "@value": "Japonica"
+        }
+      ]
+    },
+    {
+      "label": "manifest URI",
+      "value": "https://itr02.crossasia.org/fcrepo/rest/japonica/karte1/manifest"
+    },
+    {
+      "label": "PlaceOfPublication",
+      "value": "江戸"
+    },
+    {
+      "label": "Signatur",
+      "value": "37619 ROA"
+    },
+    {
+      "label": "Sprache",
+      "value": "ja"
+    },
+    {
+      "label": "StaBiKat (ppn digital)",
+      "value": "PPN3308100622"
+    },
+    {
+      "label": "StaBiKat (ppn original)",
+      "value": "PPN3308099381"
+    },
+    {
+      "label": "Titelblatt",
+      "value": "PHYS_0001"
+    },
+    {
+      "label": "Umfang",
+      "value": "Online-Ressource (地図1舗, 多色刷)"
+    }
+  ],
+  "viewingDirection": "right-to-left",
+  "viewingHint": "paged",
+  "license": "Public Domain",
+  "attribution": "NDL",
+  "logo": "",
+  "service": {
+    "@context": "http://www.w3.org/ns/json-ld#context",
+    "@id": "http://example.org/service/example",
+    "profile": "http://example.org/docs/example-service.html"
+  },
+  "sequences": [
+    {
+      "@id": "https://itr02.crossasia.org/fcrepo/rest/japonica/karte1/manifest/sequence.json",
+      "@type": "sc:Sequence",
+      "label": "Current Page Order",
+      "canvases": [
+        {
+          "@id": "https://iiif-content.crossasia.org/xasia/japonica+karte1+2/p2",
+          "@type": "sc:Canvas",
+          "label": "百鬼夜行絵巻",
+          "width": 19000,
+          "height": 14280,
+          "images": [
+            {
+              "@id": "https://iiif-content.crossasia.org/xasia/japonica+karte1+2/ano0",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-content.crossasia.org/xasia/japonica+karte1+2/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 8843,
+                "height": 14234,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-content.crossasia.org/xasia/japonica+karte1+2",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://iiif-content.crossasia.org/xasia/japonica+karte1+2/p1#xywh=6813,38,8843,14234"
+            },
+            {
+              "@id": "https://iiif-content.crossasia.org/xasia/japonica+karte1+3/ano1",
+              "@type": "oa:Annotation",
+              "motivation": "sc:painting",
+              "resource": {
+                "@id": "https://iiif-content.crossasia.org/xasia/japonica+karte1+3/full/full/0/default.jpg",
+                "@type": "dctypes:Image",
+                "format": "image/jpeg",
+                "width": 9226,
+                "height": 14259,
+                "service": {
+                  "@context": "http://iiif.io/api/image/2/context.json",
+                  "@id": "https://iiif-content.crossasia.org/xasia/japonica+karte1+3",
+                  "profile": "http://iiif.io/api/image/2/level1.json"
+                }
+              },
+              "on": "https://iiif-content.crossasia.org/xasia/japonica+karte1+3/p1#xywh=0,0,9226,14259"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
